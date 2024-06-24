@@ -5,22 +5,22 @@
 </template>
 
 <script lang="ts">
-export default {
+import { defineComponent } from '@vue/composition-api';
+
+export default defineComponent({
   name: '{{ properCase componentName }}',
   components: {},
   props: {},
-  data(): any {
+  setup() {
     return {};
   },
-  computed: {},
-  methods: {},
-};
+});
 </script>
 
 <style lang="scss" module>
-@import '~@/app/shared/design-system';
+@import '~@/assets/design-system';
 
 .{{ camelCase componentName }} {
-  display: block;
+  // this class is only applied if you add css properties
 }
 </style>

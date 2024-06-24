@@ -191,6 +191,115 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "einfalles",
+      "name": "Duylam Nguyen-Ngo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/855206?v=4",
+      "profile": "http://duylam.pleaserevise.xyz",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "majroth",
+      "name": "Martin Merschroth",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19751007?v=4",
+      "profile": "https://www.merschroth.design/",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "campunknita",
+      "name": "Camila Peralta Wieland",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1984124?v=4",
+      "profile": "http://www.camswork.com",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "HeavenlyEntity",
+      "name": "Alec M",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/39228141?v=4",
+      "profile": "http://alecsoftolio.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "misikoff",
+      "name": "misikoff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9086984?v=4",
+      "profile": "https://misikoff.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Akimotorakiyu",
+      "name": "臭哥哥·湫曗",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31165554?v=4",
+      "profile": "http://silver.saigao.fun/saigao/index.html",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "pavog",
+      "name": "Paul Vogel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4786628?v=4",
+      "profile": "https://www.paulvogel.me/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "fuzinato",
+      "name": "Dario Fuzinato",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3132724?v=4",
+      "profile": "https://fuzinato.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "maks232",
+      "name": "Maksim Bock",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166910?v=4",
+      "profile": "https://github.com/maks232",
+      "contributions": [
+        "test"
+      ]
+    },
+    {
+      "login": "Loopios7",
+      "name": "Dan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40054139?v=4",
+      "profile": "https://loopios7.xyz/",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "manuasir",
+      "name": "Manuel J. Bernal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10210567?v=4",
+      "profile": "https://github.com/manuasir",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "drsugiaichigo00781vn",
+      "name": "Nguyen Kim Bang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23171740?v=4",
+      "profile": "https://github.com/drsugiaichigo00781vn",
+      "contributions": [
+        "doc"
+      ]
     }
-  ]
+  ],
+  "commitConvention": "none"
 }

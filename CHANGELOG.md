@@ -1,3 +1,660 @@
+#### 4.8.1 (2022-04-08)
+
+##### Chores
+
+- **node:** upgrade to version 14 ([65566905](https://github.com/vuesion/vuesion/commit/655669052bcbf1d54124715202c4fbd599e8a17e))
+
+##### Continuous Integration
+
+- **pull-request:** only checkout privat repos for org members ([bd21421f](https://github.com/vuesion/vuesion/commit/bd21421f2664d6f10068a121a907ae8d72ef4082))
+
+##### Documentation Changes
+
+- **README.md:** fix grammar typo ([#597](https://github.com/vuesion/vuesion/pull/597)) ([d14ad61b](https://github.com/vuesion/vuesion/commit/d14ad61b6f2eb755e0a05999a46caf320f6b37d5))
+
+##### Bug Fixes
+
+- **landing-page-header:** use dynamic storybook link ([d407a791](https://github.com/vuesion/vuesion/commit/d407a791d5921a76c9e7ab228ed2f0bec08c33c4))
+- **vue-select:** don't focus input after outside click ([76284345](https://github.com/vuesion/vuesion/commit/762843453e8084a6da0463b8d1433f088c2609a5))
+
+### 4.8.0 (2022-03-26)
+
+##### Chores
+
+- update vee-validate ([0a1e01a0](https://github.com/vuesion/vuesion/commit/0a1e01a05b54f1e7bba047530ebf444ae2356061))
+- minor dependency update ([#595](https://github.com/vuesion/vuesion/pull/595)) ([002fb46c](https://github.com/vuesion/vuesion/commit/002fb46cf8aed706aab38e5d7acfb7a1df13bf3e))
+
+##### New Features
+
+- **vue-masonry:**
+  - add proper image handling ([350f3e87](https://github.com/vuesion/vuesion/commit/350f3e8739ac6bafa1e0121dff86c538e32914b2))
+  - recalculate height when content changes ([8eac1d1a](https://github.com/vuesion/vuesion/commit/8eac1d1a2e1c9e9aef304bcad5391f24614ec4ee))
+- **vue-select:**
+  - focus custom select when menu closes ([847450a2](https://github.com/vuesion/vuesion/commit/847450a25321f02349e169c718350eec106b28e0))
+  - support multi-select ([f6c338ea](https://github.com/vuesion/vuesion/commit/f6c338eaae23ef4278b2219a845b02d8355f8a70))
+- **vue-menu:**
+  - emit close event on esc press ([258bdf7e](https://github.com/vuesion/vuesion/commit/258bdf7e4fe2135855423c0c278537cfb8011641))
+  - emit close event on Tab press ([9b1cd674](https://github.com/vuesion/vuesion/commit/9b1cd67407ef2eb0bed6a6ac0a58cf3936326ec2))
+- **components:**
+  - add masonry layout ([b8a4de73](https://github.com/vuesion/vuesion/commit/b8a4de734543b8506318af1a28e2b772d2262ba5))
+  - add toggle-button ([f9cf4dc5](https://github.com/vuesion/vuesion/commit/f9cf4dc50ac7264c5969a541c398e341910e9ebc))
+- **vue-input:** add debounced-input event ([6e204a3f](https://github.com/vuesion/vuesion/commit/6e204a3ffaa795796c08a909deb51bfd999f6fc1))
+
+##### Bug Fixes
+
+- **components:** validation and error states ([c6d9bd0d](https://github.com/vuesion/vuesion/commit/c6d9bd0d479ec76584725f788a1dd2f5f046ea64))
+- **accordion-item:** register when mounted ([b88720e5](https://github.com/vuesion/vuesion/commit/b88720e54b6f36d1c8850449e0e5766b9b061c58))
+- **vue-slider:** increase space below label ([9425b3b2](https://github.com/vuesion/vuesion/commit/9425b3b2a453e5e14ddc97277f41d08342d9eb9a))
+- **vue-select:** add css for native/custom switch ([8240483f](https://github.com/vuesion/vuesion/commit/8240483fae2583f7531f69fba3f0dbf4db4a1e88))
+
+### 4.7.0 (2022-01-30)
+
+##### Documentation Changes
+
+- **README.md:** correct CONTRIBUTING.md path ([#580](https://github.com/vuesion/vuesion/pull/580)) ([7b81fd4d](https://github.com/vuesion/vuesion/commit/7b81fd4ded6d2af575b9ab9923b995ba4f435f7c))
+
+##### New Features
+
+- **vue-input:** change leading icon color ([b4b83c41](https://github.com/vuesion/vuesion/commit/b4b83c416406c5cd018208c8a7a06931c6fe1652))
+- **vue-select:** change icon spacing ([57b9a5d4](https://github.com/vuesion/vuesion/commit/57b9a5d414a4fb8c8b8833a71855d429cd9ec9f5))
+- **vue-button:** add ghost variation ([71953260](https://github.com/vuesion/vuesion/commit/719532601e46e4a9fd87a025a6b128635cacbc28))
+
+##### Bug Fixes
+
+- **vue-select:** change css structure for menu positioning ([2c932e4d](https://github.com/vuesion/vuesion/commit/2c932e4db558e6753932064903150c6a9f05d176))
+- add currency input to coverage report ([1894c807](https://github.com/vuesion/vuesion/commit/1894c807b738935b6a08a2ad982ea39d1f5b1f67))
+
+### 4.6.0 (2021-12-22)
+
+##### Build System / Dependencies
+
+- add cross-env ([#579](https://github.com/vuesion/vuesion/pull/579)) ([7d41da18](https://github.com/vuesion/vuesion/commit/7d41da183a26d05283628d3de5cfdaa448e2307d))
+
+##### Chores
+
+- **vuesion+:** add currency input ([c8ee5106](https://github.com/vuesion/vuesion/commit/c8ee510666a0bc0465a6b7a121dd214bf08ec10d))
+
+##### New Features
+
+- **vue-input:** add slots for leading/trailing icon ([ab0b85be](https://github.com/vuesion/vuesion/commit/ab0b85be7e843e569d9fdc381485b9b518fc202c))
+- **avatar:** add support for icons ([dc90d193](https://github.com/vuesion/vuesion/commit/dc90d193b23a257853a1ef44a003daeaf2c177a2))
+- **color-palette:** add info color ([c3028014](https://github.com/vuesion/vuesion/commit/c30280143e7f576b869a30bc0fb0bd5f28f9f997))
+- **vue-menu:** scroll to active item on key press ([5a60ccd7](https://github.com/vuesion/vuesion/commit/5a60ccd7746539948976bc41b7c4c2893eb50fe3))
+
+##### Refactors
+
+- **vue-input:** emit original event-object on input ([b352008a](https://github.com/vuesion/vuesion/commit/b352008abd947b4c3db6f46f6c77de66b88090ac))
+- **v-for:** make sure all keys are unique ([2854dda0](https://github.com/vuesion/vuesion/commit/2854dda043919024dcca33a80eca9caac87cc719))
+
+### 4.5.0 (2021-11-26)
+
+##### Chores
+
+- use es6 as test target ([9fcd6358](https://github.com/vuesion/vuesion/commit/9fcd6358c5593e420a58ba05b6a3d43e9f5114de))
+- remove graphql folder from coverage ([7387a289](https://github.com/vuesion/vuesion/commit/7387a2893b426d516cf53261370b66f9c4d742e6))
+
+##### Documentation Changes
+
+- **typo:** add vue-text look property ([57596d9f](https://github.com/vuesion/vuesion/commit/57596d9f87087a14607ba68f3630c4cb296255ba))
+
+##### New Features
+
+- **vee-select:** add search via keyboard ([a3a012fe](https://github.com/vuesion/vuesion/commit/a3a012fe77b6cb1b072db478b0e4705c05d43ff1))
+- **vee-validate:** add regex by default ([1badb64d](https://github.com/vuesion/vuesion/commit/1badb64d5f6c9ddda0fa42e0dabfcd6343ab2a11))
+- **vue-columns:** add auto-height, can-grow, can-shrink props ([42fbb411](https://github.com/vuesion/vuesion/commit/42fbb411918974901b965bb97bfb4cb67794d02a))
+- add google-fonts module ([fc287b8f](https://github.com/vuesion/vuesion/commit/fc287b8f57e9ace3d7d18a60ae62ce2e7d6b3938))
+- **vue-box:** add auto-height prop ([1d471d5a](https://github.com/vuesion/vuesion/commit/1d471d5aa0832dfa5e27abc92f589bfed7544102))
+
+##### Bug Fixes
+
+- **vee-select:**
+  - make validation work and add error state ([0e81e049](https://github.com/vuesion/vuesion/commit/0e81e0495c0e2832ae45bfb98d8f8a0b025d8163))
+  - don't show menu if disabled ([0bea3bd3](https://github.com/vuesion/vuesion/commit/0bea3bd33ffec4d33d3c82764893622f6bfe383d))
+
+##### Refactors
+
+- **forms:** use composition-api ([e0146021](https://github.com/vuesion/vuesion/commit/e014602184dc6702d9f4d073554c779af9102435))
+- **components:** move forms into separate folder ([e7fa4d26](https://github.com/vuesion/vuesion/commit/e7fa4d2634b221ca5a659a29d74de04b74716acc))
+- **vue-columns:** use flex gap ([9ccd1e22](https://github.com/vuesion/vuesion/commit/9ccd1e222c27d3c99b549191b40cdaf9d7aafb68))
+- **vue-inline:** use flex gap ([c33facfa](https://github.com/vuesion/vuesion/commit/c33facfae3b192e0ecfe84528d44b080cdbe654e))
+
+#### 4.4.1 (2021-10-23)
+
+##### Chores
+
+- update browserslist ([87eeee4f](https://github.com/vuesion/vuesion/commit/87eeee4fc7886d5a654c8974ff6c3f33c7e55a1c))
+
+##### Bug Fixes
+
+- **vue-button:** add aria-hidden to icons ([94ab7953](https://github.com/vuesion/vuesion/commit/94ab7953b978c5d0624700268861d6120c8ee02f))
+- **vue-text:** add default font-family ([3a1f32ab](https://github.com/vuesion/vuesion/commit/3a1f32ab1bc45406dfcec5e5af986657d6338055))
+- **generators:** use correct variable name in vuex actions ([b5eacbcf](https://github.com/vuesion/vuesion/commit/b5eacbcf8326bc1b4a8e38b81addf5980fc05217))
+- **vue-select:** apply placeholder css class to custom-select ([5f5a4d8f](https://github.com/vuesion/vuesion/commit/5f5a4d8f283fe26b4b2fb9c5126686a55dc3c6fe))
+- **vue-inline:** add css class for no-wrap property ([f2a17be4](https://github.com/vuesion/vuesion/commit/f2a17be429a86f358f79ede494deb1d667ce99d0))
+
+### 4.4.0 (2021-10-02)
+
+##### Chores
+
+- update husky ([9163d2c9](https://github.com/vuesion/vuesion/commit/9163d2c964f7fa08ec8fdea0214869818cf7bcd1))
+- move pre-commit to npm scripts ([bbae635b](https://github.com/vuesion/vuesion/commit/bbae635b6497ea71f78fb9906ce70f40eef6241b))
+- add .env example ([03cd9118](https://github.com/vuesion/vuesion/commit/03cd9118a6c0c99e65d05b62a54290421d9ece04))
+
+##### Continuous Integration
+
+- replace circleCI with Github workflows ([57df1083](https://github.com/vuesion/vuesion/commit/57df1083fbcbe90f551c553029c0bbdc93974ee1))
+
+##### New Features
+
+- **vue-sidebar:** add active-class for nuxt-link ([b649c361](https://github.com/vuesion/vuesion/commit/b649c361f70627f1b1825cffed585a82e23b5119))
+- **vue-menu:** add disabled state for items ([5ddc0fad](https://github.com/vuesion/vuesion/commit/5ddc0faddc4a2bb1a079c9f272ea742a60ead195))
+
+##### Bug Fixes
+
+- **vuex-blueprint:** add default exports ([5389a6d5](https://github.com/vuesion/vuesion/commit/5389a6d54fe3ed05994b3ffa55f2e48211aebb22))
+- **vue-pagination:** add type attribute to buttons ([475cb0b6](https://github.com/vuesion/vuesion/commit/475cb0b61e4630207705c5efb03f81bbcd7caab4))
+
+### 4.3.0 (2021-09-04)
+
+##### Continuous Integration
+
+- add Vuesion+ Calendar and Date picker ([cf266202](https://github.com/vuesion/vuesion/commit/cf2662021b0ad8013b7d7ee07d31cb43c38697e9))
+- split vuesion+ components into separate repos ([5a03c042](https://github.com/vuesion/vuesion/commit/5a03c042c20ac14dafdcb20369a581c22978dcd3))
+
+##### Documentation Changes
+
+- **component-docs:** replace disclaimer with CTA ([170cb998](https://github.com/vuesion/vuesion/commit/170cb99852f8683c1c088552d5a7a35e7f743b99))
+- **design-system:** update introduction text ([833055c6](https://github.com/vuesion/vuesion/commit/833055c6f2036e87fb4099059eb58a1d2c49d94b))
+- update README.md ([2e46cdbc](https://github.com/vuesion/vuesion/commit/2e46cdbc7e4eebf278e7e70d18130fadea194e18))
+
+##### New Features
+
+- **vue-input:**
+  - remove shadow on iOS ([8a97e5b3](https://github.com/vuesion/vuesion/commit/8a97e5b346d8ef61bb51fbb483e0b27a2382b2e8))
+  - add size attribute property ([ec85478d](https://github.com/vuesion/vuesion/commit/ec85478d6d161a10adebade72da1555d2872014e))
+- **components:** reduce description-gap for better y-alignment ([5125dc9f](https://github.com/vuesion/vuesion/commit/5125dc9fbba8b00f8539cccbacf8e27ff2bcd40f))
+- **vue-select:** focus/scroll to item of the selected value ([c47a8961](https://github.com/vuesion/vuesion/commit/c47a8961fc3f45591d7684fe5f20a7110c1d516b))
+- **i18n:** add full-icu package and scripts ([5166dad0](https://github.com/vuesion/vuesion/commit/5166dad07057341d962fba02b165488bd4ba5305))
+- **jest-setup:** add stub for Element.scrollTo ([22c9f870](https://github.com/vuesion/vuesion/commit/22c9f870d770456079287c87ede30e541ed248ea))
+- **dark-mode:** optimize surface colors ([69cda30c](https://github.com/vuesion/vuesion/commit/69cda30c1ad37b80e06e46cab3d19dcfae0e3d2d))
+- **collapse-animation:** support dynamic child-height ([99d496c9](https://github.com/vuesion/vuesion/commit/99d496c9ecadcbffec956925b0f36b7376b17efd))
+- **vue-menu:** change max-height to fit better in viewport ([53ae1ff8](https://github.com/vuesion/vuesion/commit/53ae1ff8b9ca878d7629fbb97003c1b4560e6453))
+
+##### Bug Fixes
+
+- **learn-more:** fix typo ([44e63f82](https://github.com/vuesion/vuesion/commit/44e63f8255832a6ac065ed502a09f7809f182db8))
+
+##### Refactors
+
+- **vue-dropdown:** simplify onKeyDown event handler ([a29db17c](https://github.com/vuesion/vuesion/commit/a29db17cb6220552cc18e3d375ec28091ef9da93))
+
+### 4.2.0 (2021-08-17)
+
+##### Chores
+
+- **vuesion-config:** sort i18n properties ([480796a1](https://github.com/vuesion/vuesion/commit/480796a18c4c60714139a7eb7489745b89ddefa7))
+- **i18n:** clean up translations ([a8ce8d7b](https://github.com/vuesion/vuesion/commit/a8ce8d7bcd8d0a2b562c621532dc97d4d2f0b558))
+
+##### New Features
+
+- update link to docs ([0c10effc](https://github.com/vuesion/vuesion/commit/0c10effcc71b8029286c786f1cbab39c225db3ea))
+- add modern build option as default ([ea74a14a](https://github.com/vuesion/vuesion/commit/ea74a14a1e0cc2537ccdc43de9946a1b281ee0e9))
+- add feature-list ([06c13a2d](https://github.com/vuesion/vuesion/commit/06c13a2d390c0f683e72d191772eeae2fc9d2094))
+- add download page ([f0f4630e](https://github.com/vuesion/vuesion/commit/f0f4630e4e78aca863febbed9dfac609e8696a7d))
+- **learn-more:** add link to documentation ([8dda5ba2](https://github.com/vuesion/vuesion/commit/8dda5ba26324a7da267d76adebb97b02d8e4eb6b))
+- **landing-page-header:** add nav ([de560249](https://github.com/vuesion/vuesion/commit/de56024928d7e946c7a7ed68d7cea9980fc85069))
+- **content-block:** add as property ([c1d6599a](https://github.com/vuesion/vuesion/commit/c1d6599af762c88957aea484838c13ae1b238a8f))
+
+##### Bug Fixes
+
+- **generators:**
+  - prettier page.vue.hbs ([6cdeaa23](https://github.com/vuesion/vuesion/commit/6cdeaa23f32d47cce1e1185f15c9dd7673a644ca))
+  - prettier page.vue.hbs ([5459aa0a](https://github.com/vuesion/vuesion/commit/5459aa0a8d2b869e90c1d5c89aaa68c6f75bfa66))
+- **meta:** use title instead of description ([e020a72a](https://github.com/vuesion/vuesion/commit/e020a72a15bb128dffb5ba952d3afde99a1660a5))
+- **feature-list:** fix typos ([aacee1a0](https://github.com/vuesion/vuesion/commit/aacee1a0e4b8bb20eb5b569ca275bbbdcaef5ddf))
+- **pwa-meta:** let vue-meta handle the meta information ([66eea278](https://github.com/vuesion/vuesion/commit/66eea278116cd0b28751b5960ddfa2f9049b3fb8))
+- **vue-select:** add role to custom-select ([73ea1892](https://github.com/vuesion/vuesion/commit/73ea189236360998272f57a0e629f8e9217ae32e))
+- **vue-icon-vuesion:** remove aria attribute ([da473588](https://github.com/vuesion/vuesion/commit/da473588ac34788deb7768932f5a4b8e4d9983ee))
+- **icon-list:** remove view-boards ([f12ed301](https://github.com/vuesion/vuesion/commit/f12ed30128565c96c7844a1d1def313e9ec65352))
+
+##### Refactors
+
+- **tokens:** rename --a11y-color to --a11y-default-color ([bc32d206](https://github.com/vuesion/vuesion/commit/bc32d2064a26d58c032de371d9070caa6d96972d))
+
+### 4.1.0 (2021-08-11)
+
+##### Continuous Integration
+
+- enable vuesion+ components ([62f568c3](https://github.com/vuesion/vuesion/commit/62f568c3994d35c9e947732274807144a7272da7))
+
+##### New Features
+
+- **apollo-example:** add border-radius to image ([0ffebf4a](https://github.com/vuesion/vuesion/commit/0ffebf4a9728605bb419f22256750118d07e7092))
+- **component-docs:** add vuesion+ disclaimer ([c5912447](https://github.com/vuesion/vuesion/commit/c5912447ec680055fc449b6e2523716ab6e75dda))
+- **typo:** links - inherit font-weight ([315cdf8f](https://github.com/vuesion/vuesion/commit/315cdf8f1178bab17a502aabeca885b2fd959c23))
+- **vue-select:** add align(-y)-menu properties ([6f0c8e12](https://github.com/vuesion/vuesion/commit/6f0c8e1218c92a32990baed35ee3bad05ffdeb3b))
+- **vue-dropdown:** add align-y-menu property ([fa9809d5](https://github.com/vuesion/vuesion/commit/fa9809d5868533fc21738318359d51fc4ffbaeb8))
+- **vue-card:** remove overflow hidden ([cb18815f](https://github.com/vuesion/vuesion/commit/cb18815f0a2597b9336a58112fa34458798103b3))
+
+## 4.0.0 (2021-08-09)
+
+##### Chores
+
+- update contributors ([8cad7d88](https://github.com/vuesion/vuesion/commit/8cad7d88ab4c50a0ed6500ae642e5443b145e9e3))
+- update README.md ([115156b0](https://github.com/vuesion/vuesion/commit/115156b086ad6f19a1eef8611985e6ad62a1d886))
+- update PR template, funding and readme ([587b86f4](https://github.com/vuesion/vuesion/commit/587b86f469bac5b1e1d0f6fb39d39e659a3f05a5))
+- remove scss files for premium components ([baedf707](https://github.com/vuesion/vuesion/commit/baedf70736c547e6ae4a675bc2028c21efd02e12))
+- clean up static folder ([9cc2cb62](https://github.com/vuesion/vuesion/commit/9cc2cb62eb0ec390f07ca7509a97cab406580b71))
+- update dependencies ([c38ffc62](https://github.com/vuesion/vuesion/commit/c38ffc62cfcffdaed51cd566282d84d367b34d0d))
+- update dependencies ([#538](https://github.com/vuesion/vuesion/pull/538)) ([e334cc46](https://github.com/vuesion/vuesion/commit/e334cc46f80880af94a02adea202045e348eb51f))
+- remove .env from git ([098814cd](https://github.com/vuesion/vuesion/commit/098814cd56f425194ce8fcaf50bc94d6b8c59d71))
+- update vuesion packages ([#517](https://github.com/vuesion/vuesion/pull/517)) ([d6fa18a3](https://github.com/vuesion/vuesion/commit/d6fa18a3a3497d21ca56e2ba32b1bba053647277))
+- update dependencies ([#515](https://github.com/vuesion/vuesion/pull/515)) ([683f2163](https://github.com/vuesion/vuesion/commit/683f2163a215642198df13a243f48c2abeb6315a))
+- rebase onto master ([2c588549](https://github.com/vuesion/vuesion/commit/2c588549e58c1755fdc76ba9308750ac50d443b3))
+- rebase onto next ([1b155fa6](https://github.com/vuesion/vuesion/commit/1b155fa6ddc285c6c1a77337ab29332cdf6228a4))
+- updated packages ([796a55ff](https://github.com/vuesion/vuesion/commit/796a55ff269fe4e5c8a54cb938ed2d7c0ae7ef44))
+- updated packages ([3d76036b](https://github.com/vuesion/vuesion/commit/3d76036b4a57cf6b4f039862a05785991f90fe10))
+- upgrade prettier to v2 ([#499](https://github.com/vuesion/vuesion/pull/499)) ([5562b5f6](https://github.com/vuesion/vuesion/commit/5562b5f6e36a9781100b0691d9f8ce5a7fe105bd))
+- update dependencies ([#498](https://github.com/vuesion/vuesion/pull/498)) ([c6d39be6](https://github.com/vuesion/vuesion/commit/c6d39be6b71ae9997bc1f2f64cc5d54346b245c7))
+- use new outputDirectory option ([1f6af69b](https://github.com/vuesion/vuesion/commit/1f6af69ba07a1baf6a26a560198247a4537628c8))
+- upgrade to node v12 ([051e8ceb](https://github.com/vuesion/vuesion/commit/051e8ceb1420f0df866ebc186d39d8f69aabe791))
+- update vue test utils to latest stable ([421d57ac](https://github.com/vuesion/vuesion/commit/421d57ac23f455edcbd1503000e4252e12a172e8))
+- **storybook:**
+  - rename design system category to foundation ([57ea5a8d](https://github.com/vuesion/vuesion/commit/57ea5a8d786fb6241c73ef82c0d08c99d53ee548))
+  - use new config conventions ([#516](https://github.com/vuesion/vuesion/pull/516)) ([fd02238a](https://github.com/vuesion/vuesion/commit/fd02238a4880c898f686057c91f93548ae48570a))
+- **jest:** update config to include all .vue files ([7bc7c457](https://github.com/vuesion/vuesion/commit/7bc7c45743a66fbf1c4e358b7d4f3103a016aab3))
+
+##### Continuous Integration
+
+- checkout and deploy premium component repo ([#560](https://github.com/vuesion/vuesion/pull/560)) ([53abfe5d](https://github.com/vuesion/vuesion/commit/53abfe5dde3fa539fcfcb50f5d1ffe3d9abb469e))
+- add .env-prod to config.yml ([0298e3b1](https://github.com/vuesion/vuesion/commit/0298e3b10988b1e2c3956a9a9132af14adeedffa))
+- fix Dockerfile ([0ff68db0](https://github.com/vuesion/vuesion/commit/0ff68db004b4237b3789aac28ced5b9fa4767b8e))
+- **docker-file:** add .vuesion folder ([19e83277](https://github.com/vuesion/vuesion/commit/19e83277d01c3600d7b187820b30b533268671cd))
+
+##### Documentation Changes
+
+- **design-system:**
+  - layout ([ea06d08e](https://github.com/vuesion/vuesion/commit/ea06d08e94194657b42a296752f30e0d98c8e3e9))
+  - typography, iconography and spacings ([8972765e](https://github.com/vuesion/vuesion/commit/8972765edd6aa69c3a308588455c90e406c1cc22))
+  - color/utility tokens and color palette ([9498a4ac](https://github.com/vuesion/vuesion/commit/9498a4ac97f1d0b5b94337b66f4770743ba88847))
+- **components:** update usage information ([b7409d63](https://github.com/vuesion/vuesion/commit/b7409d635a8555d152ef37cec7363cbd0baa5cc5))
+- add README.md files ([3b8691a7](https://github.com/vuesion/vuesion/commit/3b8691a73a86a2c64a2cafe2bbc19ebf6e9f226f))
+
+##### New Features
+
+- **testimonials:** reduce avatar size ([810acb8f](https://github.com/vuesion/vuesion/commit/810acb8f120503ab49fbac59e5d1d9382c095f67))
+- **landing-page:** refine content ([882539f8](https://github.com/vuesion/vuesion/commit/882539f8c61d34407c51c884f84b20f4b30e0444))
+- **components:**
+  - add LearnMore ([c61335d2](https://github.com/vuesion/vuesion/commit/c61335d29323d9b82026a22eda9ebe8a48e30096))
+  - add ValueProposition ([61754601](https://github.com/vuesion/vuesion/commit/61754601aca9a5eb983cb96125da61d7f6920af6))
+  - add Testimonials ([4f6c52a8](https://github.com/vuesion/vuesion/commit/4f6c52a8967ba44de49a5b21eb18a2ec19d3e499))
+  - add LandingPageHeader ([1ff9d26e](https://github.com/vuesion/vuesion/commit/1ff9d26e02abff7f07bf460af3dcafca9ce09c54))
+  - remove premium-tier components ([9857278c](https://github.com/vuesion/vuesion/commit/9857278ca5b20b804736b553318a86243b413710))
+  - add vue-pop-over ([2c7bd6c7](https://github.com/vuesion/vuesion/commit/2c7bd6c73cddadb05e43fabdb206b38a62f97e00))
+  - add vue-back-to-top ([e01a0f64](https://github.com/vuesion/vuesion/commit/e01a0f64330b102d7311d620a7714c75b7fbd932))
+  - add layout components ([#544](https://github.com/vuesion/vuesion/pull/544)) ([4bd8b7ec](https://github.com/vuesion/vuesion/commit/4bd8b7ecf7d1c8711cfcda6784b16daed9ae6e48))
+  - add vue-text ([e6ff689c](https://github.com/vuesion/vuesion/commit/e6ff689c88c47240efabd4f207e387f32cc45a1f))
+- **vue-input:**
+  - add size prop ([7ffaa8df](https://github.com/vuesion/vuesion/commit/7ffaa8df743979222bc518e4b9e1540ec40df80e))
+  - add cursor pointer to icons ([dd9a7a33](https://github.com/vuesion/vuesion/commit/dd9a7a330cbf6eba361f551cbcdda249783603b7))
+  - apply re-design, update tests and stories ([0f56dc36](https://github.com/vuesion/vuesion/commit/0f56dc364dd7ed43c5f6bff7f9848e56f447dc0a))
+- **vue-dropdown:**
+  - add size prop ([43eaca7a](https://github.com/vuesion/vuesion/commit/43eaca7a099bae39c47641fe244aa2809ccce064))
+  - apply re-design, update tests and stories ([81dbcfec](https://github.com/vuesion/vuesion/commit/81dbcfec9303101281bda8417281033aac34f74e))
+- **vue-select:**
+  - add size prop ([6b95f9b8](https://github.com/vuesion/vuesion/commit/6b95f9b89e3dda591fca82b59c51dfcba0d333c0))
+  - change min-width ([db6e67a1](https://github.com/vuesion/vuesion/commit/db6e67a11f9b14ba87a4e716a928bcd80475ea2e))
+  - apply re-design, update tests and stories ([dbb8af74](https://github.com/vuesion/vuesion/commit/dbb8af74a381abc5d055bed0dbd8284bf134be4e))
+- **toast:** add success toast type ([c3b06cc7](https://github.com/vuesion/vuesion/commit/c3b06cc7056067741eeb9e8ac629be0f075c1cf7))
+- **design-system:**
+  - update icons, color-palette and tokens ([f955f76d](https://github.com/vuesion/vuesion/commit/f955f76db0680b30ff94e131ba09604acf44cee4))
+  - update icons ([436c374b](https://github.com/vuesion/vuesion/commit/436c374b04df0de0252d7a5e4e82692d87b98118))
+- tweak dark-theme ([9f23051d](https://github.com/vuesion/vuesion/commit/9f23051d893e43e7d24ddfd2a416f60ad4743110))
+- optimize stories for mobile viewport ([eaeab867](https://github.com/vuesion/vuesion/commit/eaeab867c19f20eedbac0a7e22d8f29a29c9cd72))
+- register icons globally ([9cbe4a1a](https://github.com/vuesion/vuesion/commit/9cbe4a1a3ceaaee9702ed9d8d31fc8ef426ed06b))
+- add nuxtjs/color-mode ([2f01661e](https://github.com/vuesion/vuesion/commit/2f01661e5ff427a3874150f491c4352d91dc84bc))
+- add nuxtjs/html-validator ([674f0a2f](https://github.com/vuesion/vuesion/commit/674f0a2f4868166b8921a5a2678d6d274c3f22b9))
+- add nuxtjs/robots ([7cc3e606](https://github.com/vuesion/vuesion/commit/7cc3e60644d7da0ba3566798c71bc52bbec0860a))
+- add nuxt/eslint-module ([c1b400f8](https://github.com/vuesion/vuesion/commit/c1b400f8b74ced3a42a60f1b180412d0f898e04f))
+- add type-gen for swagger ([#549](https://github.com/vuesion/vuesion/pull/549)) ([a8081a85](https://github.com/vuesion/vuesion/commit/a8081a85ddff51cce55ce812012dbfe906bdbc10))
+- add pwa update script ([#548](https://github.com/vuesion/vuesion/pull/548)) ([afd133df](https://github.com/vuesion/vuesion/commit/afd133df394e5aab5fd79e78451bce5cce377d81))
+- add vue-apollo ([#547](https://github.com/vuesion/vuesion/pull/547)) ([a999afd2](https://github.com/vuesion/vuesion/commit/a999afd29c9e135cf1e25a20691bf81d0277116d))
+- add logging with winston ([#546](https://github.com/vuesion/vuesion/pull/546)) ([16ed6da8](https://github.com/vuesion/vuesion/commit/16ed6da84807db5ab9cd3226a9f142d131caa2e4))
+- use @nuxtjs/auth ([#519](https://github.com/vuesion/vuesion/pull/519)) ([14f07ba1](https://github.com/vuesion/vuesion/commit/14f07ba1030f1b3b2802fcc798090f58d21f72a7))
+- use @nuxtjs/composition-api ([#518](https://github.com/vuesion/vuesion/pull/518)) ([23b2bcbf](https://github.com/vuesion/vuesion/commit/23b2bcbf1fef116420c304b586bcbaa7004d3ffc))
+- add vuesion service ([#509](https://github.com/vuesion/vuesion/pull/509)) ([5298fe50](https://github.com/vuesion/vuesion/commit/5298fe50a702fe4d737f2f742566117ddeb71007))
+- counter page fetch example ([f8ed3bcd](https://github.com/vuesion/vuesion/commit/f8ed3bcd1443453a247796255ea5df5899d8013f))
+- add http-service ([0b8f62a5](https://github.com/vuesion/vuesion/commit/0b8f62a5d6ba0c2fa8173f2bc30cce761f3bf984))
+- add app-config ([3c2dea97](https://github.com/vuesion/vuesion/commit/3c2dea97630a8cfd7ec94252932ea97d8f6a8054))
+- add vuex-persist ([6544678a](https://github.com/vuesion/vuesion/commit/6544678a6c4ddf7d6b0c3ca86b089e59de3c8bfd))
+- add vuex-persist ([67703638](https://github.com/vuesion/vuesion/commit/6770363830a668f19114c7e7d9495c6a670eb3b5))
+- added storybook packages ([24bb890c](https://github.com/vuesion/vuesion/commit/24bb890c260f8e1a9f9664696eaaadc5b76c6398))
+- added design system stories ([1f5f435f](https://github.com/vuesion/vuesion/commit/1f5f435f46b75f425047cf253d5c41d50822a767))
+- added all component stories ([ebb4f724](https://github.com/vuesion/vuesion/commit/ebb4f7249412dba53872974a9240891d1af83c6f))
+- added ci script ([e955e2fc](https://github.com/vuesion/vuesion/commit/e955e2fc667d0ae8899ad455f15f5d54bee84d1a))
+- updated nuxt ([2c1af9f3](https://github.com/vuesion/vuesion/commit/2c1af9f302157047d3ef99daff42998a4071dfcf))
+- updated jest ([34738b06](https://github.com/vuesion/vuesion/commit/34738b0679f726e706c89932c7769f06b8364748))
+- added cookie-parser, compression, and helmet ([ff0ca593](https://github.com/vuesion/vuesion/commit/ff0ca593c4101787eddd989cbef99f281d5dbdc9))
+- got routes and auth working ([bf7ce0e7](https://github.com/vuesion/vuesion/commit/bf7ce0e7aa737f0ba260850cefbe73fb688d90d0))
+- reorganized tests, added tests, plus cleanup ([e4b5dd07](https://github.com/vuesion/vuesion/commit/e4b5dd07d259424044928d7c8cdb444c07cfd620))
+- got vee validate working and fixed some tests ([87a06d12](https://github.com/vuesion/vuesion/commit/87a06d1286acf7238990ac37d7258ff720d3854c))
+- added eslint rules and worked on vallidation ([bc9a9339](https://github.com/vuesion/vuesion/commit/bc9a933991d5b63833821380eb07177869e77218))
+- almost have validate working now ([a6c91f76](https://github.com/vuesion/vuesion/commit/a6c91f762e52a32b5fa57856e781c1999b208391))
+- added testing library package ([fee43669](https://github.com/vuesion/vuesion/commit/fee43669dbdf389b2abd8e6b76dd619c07464a65))
+- got more components and tests working ([10784c4d](https://github.com/vuesion/vuesion/commit/10784c4dd08335ff75f7c45ef6f975c1abf6af66))
+- got most tests passing + cleanup ([b5a6b4a3](https://github.com/vuesion/vuesion/commit/b5a6b4a352b4e9f6303f86173510d974314f5918))
+- moved app into src ([35043f59](https://github.com/vuesion/vuesion/commit/35043f59c142ab90c1189c265cbaa8ebb2fe9c0e))
+- got most components working ([5a9e86ad](https://github.com/vuesion/vuesion/commit/5a9e86adff36794d69dc0389e14b36c3e140fc78))
+- initial commit ([d9b91036](https://github.com/vuesion/vuesion/commit/d9b9103614c000a4c30ce08653626ac4c76e8efb))
+- support theming ([06da52e0](https://github.com/vuesion/vuesion/commit/06da52e03809d22377a74a6ae6d3fdfade9d14c9))
+- **vue-columns:**
+  - pass alignments as prop to vue-column ([a045517a](https://github.com/vuesion/vuesion/commit/a045517ab31a6dcfd56e5a99088b6cf83c2eecb0))
+  - add full-page prop ([baf9b926](https://github.com/vuesion/vuesion/commit/baf9b926fad5c7f78d275a85cf6fa28fbbf33735))
+  - add revert property ([d59d9deb](https://github.com/vuesion/vuesion/commit/d59d9debfbd6e9d4af8732e691aff4579fb6114b))
+- **get-dom-ref:** add vue components as type ([63bd0586](https://github.com/vuesion/vuesion/commit/63bd05867cab3f088291456ceeb652ceeb05c768))
+- **vue-box:** add alignment properties ([37faa615](https://github.com/vuesion/vuesion/commit/37faa615572604e92433f03c16d3377150498d0e))
+- **vue-checkbox:**
+  - add hide-label prop ([2359fbc2](https://github.com/vuesion/vuesion/commit/2359fbc2acb92a4535c4d6a04873595e167232c0))
+  - apply re-design, update tests and stories ([926ec0b9](https://github.com/vuesion/vuesion/commit/926ec0b9f9b314dfd8c481533524d69f9098659b))
+- **vue-markdown:** change table cell spacing ([25b5b671](https://github.com/vuesion/vuesion/commit/25b5b671a320cabbcb0d0677b6dc7dca317487a5))
+- **ci:** update running order ([3bdf698a](https://github.com/vuesion/vuesion/commit/3bdf698aeedaa54ea6d2f524b942f846c18d6641))
+- **cypress:** increase timeouts ([b1b2a93f](https://github.com/vuesion/vuesion/commit/b1b2a93fb0e6331646f5619e50724db450bf9551))
+- **icons:** sync with Figma icon set ([83066476](https://github.com/vuesion/vuesion/commit/83066476c0646732c1cbfe462729193fcd1bd44b))
+- **vue-tab-group:** apply re-design, update tests and stories ([913a083a](https://github.com/vuesion/vuesion/commit/913a083ad63b067c0b392602e981371e6c293eac))
+- **vue-sidebar:** apply re-design, update tests and stories ([21bbeec1](https://github.com/vuesion/vuesion/commit/21bbeec167d9ffe6894b78392e46e8d130cc6d3c))
+- **vue-navbar:** apply re-design, update tests and stories ([de9e16ec](https://github.com/vuesion/vuesion/commit/de9e16ecbbea22475a732f7a9240a350b6f157a3))
+- **vue-avatar:** apply re-design, update tests and stories ([e64bec95](https://github.com/vuesion/vuesion/commit/e64bec951ad6745759000c90f892963940d10178))
+- **vue-tooltip:** apply re-design, update tests and stories ([7e902305](https://github.com/vuesion/vuesion/commit/7e9023054b2db7be5014ccd8d7b84d205aca08f5))
+- **vue-toast:** apply re-design, update tests and stories ([e0e9bb53](https://github.com/vuesion/vuesion/commit/e0e9bb537936093a1731db391dad5bd6bb2611b0))
+- **vue-footer:** apply re-design, update tests and stories ([be82a82c](https://github.com/vuesion/vuesion/commit/be82a82c594b4778f9c81b6ce10766af913b0ffd))
+- **vue-accordion:** apply re-design, update tests and stories ([f6087c9c](https://github.com/vuesion/vuesion/commit/f6087c9cb96fc66db7bc98684fb950c1ea91b004))
+- **vue-pagination:** apply re-design, update tests and stories ([75d13ac1](https://github.com/vuesion/vuesion/commit/75d13ac1db0ef68c17ef0f26b2aba3c6eeb84030))
+- **vue-modal:**
+  - apply re-design, update tests and stories ([e230c933](https://github.com/vuesion/vuesion/commit/e230c933396d0930d44074c5bbed4342ea892f5b))
+  - apply re-design, update tests and stories ([39a08200](https://github.com/vuesion/vuesion/commit/39a082008cf8d694c3519109041f136eaa8134ee))
+- **vue-card:** apply re-design, update tests and stories ([9b29a4e6](https://github.com/vuesion/vuesion/commit/9b29a4e62e1dfdab0edfa58a7c05bc5a13f61c1c))
+- **vue-collapse:** apply re-design, update tests and stories ([00b6d0c9](https://github.com/vuesion/vuesion/commit/00b6d0c97a995a2a81736220bd3082589ecd6fc9))
+- **vue-breadcrumb:** apply re-design, update tests and stories ([824819f2](https://github.com/vuesion/vuesion/commit/824819f25efe83efaef70e99dc9f0b71ead16f33))
+- **vue-back-to-top:** apply re-design, update tests and stories ([f6947586](https://github.com/vuesion/vuesion/commit/f69475860642df84c40be811431d26f086572214))
+- **vue-menu:** apply re-design, update tests and stories ([c1a87057](https://github.com/vuesion/vuesion/commit/c1a87057d28f8dd3ac45c46f473960cffcec9476))
+- **vue-textarea:** apply re-design, update tests and stories ([321714fd](https://github.com/vuesion/vuesion/commit/321714fdee2825341f8d9667994a87e4429313f5))
+- **vue-slider:** apply re-design, update tests and stories ([d97a2da8](https://github.com/vuesion/vuesion/commit/d97a2da80101a044921614ea3f3d3ddef77bb49f))
+- **vue-toggle:** apply re-design, update tests and stories ([8fe52be7](https://github.com/vuesion/vuesion/commit/8fe52be7593b530550bfd9a3ec05460b10ab66eb))
+- **vue-loader:** apply re-design, update tests and stories ([ca75d72e](https://github.com/vuesion/vuesion/commit/ca75d72ef0201cd3c5498605f709caaa55f85007))
+- **vue-radio:** apply re-design, update tests and stories ([e9ac9fa5](https://github.com/vuesion/vuesion/commit/e9ac9fa5e9493936f9f76b078b11eb4986c8f3f4))
+- **vue-button:** apply re-design, update tests and stories ([5e63c241](https://github.com/vuesion/vuesion/commit/5e63c241e54b6b2ed875fa3106efbf9056f9239c))
+- **vue-image:** move to data display, update tests and stories ([e1097d64](https://github.com/vuesion/vuesion/commit/e1097d64d20e7621f9193335b01746d9c0cbf7d6))
+- **vue-badge:** apply re-design, update tests and stories ([aae11318](https://github.com/vuesion/vuesion/commit/aae113184737bac9574fdddda17b5178493a52c1))
+- **vue-column:** add align-y prop ([70b4704d](https://github.com/vuesion/vuesion/commit/70b4704da7244a9d9b95f3da6d181f35c51f1bc5))
+- **i18n:** add formatFallbackMessages ([260f71e7](https://github.com/vuesion/vuesion/commit/260f71e71e36bea821ff8df4a7aa88f6336a8814))
+- **vue-text:** add align property ([e0c70738](https://github.com/vuesion/vuesion/commit/e0c707384803de9066016c9266499a0c975210dc))
+- **layout-components:** support space value null ([753cfac3](https://github.com/vuesion/vuesion/commit/753cfac3da8637d2428d021d97d01a9d1abee708))
+- **vue-inline:**
+  - add revert and no-wrap properties ([3a0e3323](https://github.com/vuesion/vuesion/commit/3a0e3323cfed48de298d38713d276bd1930709be))
+  - add align-y property ([8ad0cae7](https://github.com/vuesion/vuesion/commit/8ad0cae723fd1e919a0ef8a5fb38663924f9b413))
+- **generators:** add interface ([#540](https://github.com/vuesion/vuesion/pull/540)) ([3be17d42](https://github.com/vuesion/vuesion/commit/3be17d4212841f746b3086fdcd98f9e75a0c9159))
+
+##### Bug Fixes
+
+- **landing-page-header:** add closing ) for background-image url ([5e1a8345](https://github.com/vuesion/vuesion/commit/5e1a83459f43d58d3714d69770774f9723986cc2))
+- **vue-select:**
+  - fix typings ([f3544605](https://github.com/vuesion/vuesion/commit/f3544605af089e63a465cdf42170f4d1145ceedb))
+  - change menu position if hidden label ([bebf3445](https://github.com/vuesion/vuesion/commit/bebf3445c8f8d65a7df841c085b59e04e7d20e8a))
+  - use computed instead of ref for watching v-model ([#533](https://github.com/vuesion/vuesion/pull/533)) ([2cd766c3](https://github.com/vuesion/vuesion/commit/2cd766c32e44e9ffb3ea569f5b0e75de0e88d399))
+- **vue-button:** fix spacing for icon only button ([3b431b6e](https://github.com/vuesion/vuesion/commit/3b431b6e52a4ae8cbddb88f6326004e6683d7813))
+- html validation errors ([3afc90b6](https://github.com/vuesion/vuesion/commit/3afc90b6ab52812a2356dac8818c090dcce71879))
+- add changes from design-review ([0fd04cf0](https://github.com/vuesion/vuesion/commit/0fd04cf0bd087861a7e3cf91c3e10a8c592eb5a7))
+- add vuesion/models to dependencies ([123ddbe9](https://github.com/vuesion/vuesion/commit/123ddbe96013c3031a3e90c4ba292e1e65ed8e34))
+- remove unused prop with-vertical-space ([#541](https://github.com/vuesion/vuesion/pull/541)) ([d57ebd39](https://github.com/vuesion/vuesion/commit/d57ebd39e5109d4a64e2f2bfca6db87e0300140f))
+- theme, locale change ([deec6a79](https://github.com/vuesion/vuesion/commit/deec6a793a23557c0c1721999512609e5ac22579))
+- make vee-validate examples working ([cb5ab7b1](https://github.com/vuesion/vuesion/commit/cb5ab7b1ea09d04cc5d9a83318152a7ff26b7d09))
+- server static storybook directory ([e1b2de2e](https://github.com/vuesion/vuesion/commit/e1b2de2ea466d868b2f24c15be3741f917020c1e))
+- jest coverage location and minor adjustments ([cb6f078e](https://github.com/vuesion/vuesion/commit/cb6f078e1eec172b257fb8dbd1e30196c0185961))
+- final part of workaround to change capitalization of folder ([1d55d5a4](https://github.com/vuesion/vuesion/commit/1d55d5a4c319a0de20cb20b8334e8e71b24b6a09))
+- workaround to change capitalization of folder ([b40211e6](https://github.com/vuesion/vuesion/commit/b40211e608fe76b3f66df5c4a06957096cf1654f))
+- run tests in ci script ([e6c0ab97](https://github.com/vuesion/vuesion/commit/e6c0ab9772f0e9ffd09034e7133d0d411d3d3aac))
+- got coverage working and updated all jest related dependencies ([b768d95e](https://github.com/vuesion/vuesion/commit/b768d95e66b97e9117ae8d2185cbf4255cfefd9b))
+- minor import fixes ([43f12c6c](https://github.com/vuesion/vuesion/commit/43f12c6c9cf1bc2a964ae178d9c69e8bd05584b8))
+- handled injection not found in FormExample test ([3ee50d01](https://github.com/vuesion/vuesion/commit/3ee50d01f6e351f0534f19d0d6d0c7726a876e43))
+- use nuxt-link instead of router-link ([dcea1826](https://github.com/vuesion/vuesion/commit/dcea18265d169d193128597915f838f408cd7677))
+- update deprecated method calls in tests ([cb14ecf0](https://github.com/vuesion/vuesion/commit/cb14ecf0d5efe72bd0fe074e355bf05035b4846f))
+- all counter tests passing now ([9636573f](https://github.com/vuesion/vuesion/commit/9636573f29e583706cb6a6967daf12b9db4cfa2a))
+- all VueDatePicker tests passing now ([10b80d26](https://github.com/vuesion/vuesion/commit/10b80d2609cee53da34e16466f33be273545e301))
+- all VueTextArea tests passing now ([03985be3](https://github.com/vuesion/vuesion/commit/03985be39a4c0a6bb3760589b9a00d0ac6aed83f))
+- vue input tests passing now ([5152648c](https://github.com/vuesion/vuesion/commit/5152648cad73013791500cb59fa2db66f4557de4))
+- work around vue-jest error with ts-jest dependency ([95d0d2d3](https://github.com/vuesion/vuesion/commit/95d0d2d3100a97556470dd23f666b72529024a11))
+- removed unnecessary dependency ([d556d3d3](https://github.com/vuesion/vuesion/commit/d556d3d394b32186d43f9c6f99a885180337d3fa))
+- minor VueTextarea fixes ([7177f82c](https://github.com/vuesion/vuesion/commit/7177f82c5534c044f3415225409851609f71a51c))
+- counter import in test ([de2ada69](https://github.com/vuesion/vuesion/commit/de2ada69b6729a75684a624bdf659f3ab70d6dd4))
+- helmet import ([dba4c351](https://github.com/vuesion/vuesion/commit/dba4c3515370e87e21f250d6ec88783ec50673dd))
+- use vuesion getIntInRange ([a18f3598](https://github.com/vuesion/vuesion/commit/a18f3598a38bddb0d1ea84e7fda386afd766ffee))
+- got nav bar hamburger button to display ([6f75b3b7](https://github.com/vuesion/vuesion/commit/6f75b3b75745d7018ec7acb508ac8a54ab15a844))
+- fix state type in connected component tests ([3877aaad](https://github.com/vuesion/vuesion/commit/3877aaadd140658fa9c5ebcaad312553902f35d0))
+- fix memory leak caused by vee-validate ([f728f51c](https://github.com/vuesion/vuesion/commit/f728f51cbe4c7fe988c9077dad58ab98af3699ac))
+- **vue-inline:** interpolate revert prop ([1a9a6d61](https://github.com/vuesion/vuesion/commit/1a9a6d6136d186c3a421757fe72f5c080053b208))
+- **layout-components:** typings and wrong function call ([d03397a2](https://github.com/vuesion/vuesion/commit/d03397a2cac76ef24ef8d6a52fc631473bf1e99c))
+- **vue-column:** support array values for full-width ([8f263231](https://github.com/vuesion/vuesion/commit/8f263231a6060b1a0e42cd0fb31ac9f7173a7926))
+- **vue-slider:** use parseFloat instead of parseInt ([#534](https://github.com/vuesion/vuesion/pull/534)) ([c2e5c5cf](https://github.com/vuesion/vuesion/commit/c2e5c5cf63cc3f09d38ee1dc59fbca855ed5caa3))
+- **components:** use id as labels for-attribute value ([#531](https://github.com/vuesion/vuesion/pull/531)) ([3ffe4547](https://github.com/vuesion/vuesion/commit/3ffe45473645bcd808148338b20176dcd2744cce))
+- **response-interceptor:** revert to old solution ([59aefc0b](https://github.com/vuesion/vuesion/commit/59aefc0b48fb5267b64eba85eadee32652e5592e))
+- **story-book:** add padding to content preview ([56e0a8e0](https://github.com/vuesion/vuesion/commit/56e0a8e0bf78c3ef985e519e2e20f4f86698b665))
+
+##### Refactors
+
+- add common scss variables for input sizes ([5e56cae8](https://github.com/vuesion/vuesion/commit/5e56cae8490daca2396c180e459ebc6b11dd5375))
+- clean up token usage in components ([b7cdbd03](https://github.com/vuesion/vuesion/commit/b7cdbd031bacc9abaae8e96abe95b7b823e6e4c5))
+- sync token naming with figma ([7a087ad7](https://github.com/vuesion/vuesion/commit/7a087ad7f96e3fd6eaa3c1e71320f68c22609621))
+- remove vue-grid ([48c6d291](https://github.com/vuesion/vuesion/commit/48c6d2917880365e851149b9ee486d0e4af2116b))
+- remove link color tokens ([b643cee0](https://github.com/vuesion/vuesion/commit/b643cee085eb60c84e6266ef1da5dfe6e0d34be4))
+- split interaction and brand variation tokens ([6a3efd40](https://github.com/vuesion/vuesion/commit/6a3efd40f7280a79704c75dcf09450de0fbf6f40))
+- turn functions into arrows ([ed719413](https://github.com/vuesion/vuesion/commit/ed71941305a00ff23bd5c1836665d290e9c16174))
+- move components to atomic design folders ([fbdf5673](https://github.com/vuesion/vuesion/commit/fbdf567316d6100424db8c5cf8d232161ac595e2))
+- move animations to shared components ([1f6b793c](https://github.com/vuesion/vuesion/commit/1f6b793c94283c7a5763664dbe1577abd7fef177))
+- remove directives ([8cc4393f](https://github.com/vuesion/vuesion/commit/8cc4393fc7a2dd6dd6f9f47cb6b8fda14de8f940))
+- rename @vuesion packages ([fdc55203](https://github.com/vuesion/vuesion/commit/fdc55203038899b81e9a527edaafb4a80c598756))
+- switch to eslint ([#490](https://github.com/vuesion/vuesion/pull/490)) ([ee515e50](https://github.com/vuesion/vuesion/commit/ee515e509ccc7eeff6598aa8f41ee331af78dbc0))
+- **design-system:**
+  - update color-palette ([b4a21a13](https://github.com/vuesion/vuesion/commit/b4a21a13cceb45e5a91d6c57a37c0e9f60046676))
+  - remove color-suffix from color tokens ([6413e4c1](https://github.com/vuesion/vuesion/commit/6413e4c1109ae0946fbe4be2fcc784cdd455e386))
+  - update color-tokens and text-styles ([#543](https://github.com/vuesion/vuesion/pull/543)) ([67cbb336](https://github.com/vuesion/vuesion/commit/67cbb336f1d48a3d75e4ece86d3983682772052d))
+  - change text-color tokens ([da2cec55](https://github.com/vuesion/vuesion/commit/da2cec55c2d9614b9e0d41d39019cad2dc7dbd35))
+  - align naming with Figma ([48d391ce](https://github.com/vuesion/vuesion/commit/48d391ceb826193d53c1598f4c0c3172ba1f14fa))
+  - move components to shared folder ([ca784478](https://github.com/vuesion/vuesion/commit/ca7844784fd531299cfbc6bd3256a78749097bd4))
+- **i18n:**
+  - clean up date formats ([76c1afad](https://github.com/vuesion/vuesion/commit/76c1afad7745bdd590a4536be858da06a93b8d2c))
+  - add dateTimeFormats ([4ab878a5](https://github.com/vuesion/vuesion/commit/4ab878a5ce6cea42ac7fc635db3bec2fd981bac8))
+- **components:**
+  - move premium components to separate folder ([0bc2e6cc](https://github.com/vuesion/vuesion/commit/0bc2e6cccd380a28930c0f038c1af03acef9dc6f))
+  - unify component properties ([#514](https://github.com/vuesion/vuesion/pull/514)) ([3f602ff1](https://github.com/vuesion/vuesion/commit/3f602ff1024b34cf2ba42677552ecd1e6fe37998))
+- **vue-button:**
+  - add icons as props ([dc6dc051](https://github.com/vuesion/vuesion/commit/dc6dc0510fd89a81080a182ab626278eaee444d5))
+  - use composition api + re-design ([46e6fa2e](https://github.com/vuesion/vuesion/commit/46e6fa2e4f0f775d6ba9e1a5e7d11fbfcc8e43c1))
+- **vue-text:**
+  - rename appearance to look ([e67634ea](https://github.com/vuesion/vuesion/commit/e67634ea44ef20bce29b1e1a0ac792097961ec2b))
+  - change text color names ([07103620](https://github.com/vuesion/vuesion/commit/07103620be69eef2aa8f74b47b5db4bb8e722786))
+- **assets:** restructure design-system folder ([03ea8035](https://github.com/vuesion/vuesion/commit/03ea80355a4bfddab25e9785b344408fe9687fe7))
+- **vue-columns:**
+  - use gap fallback-solution ([ee2598e4](https://github.com/vuesion/vuesion/commit/ee2598e476bebfa933a8a324d1ceb728cd42ad4d))
+  - switch to flex-gap ([5135f311](https://github.com/vuesion/vuesion/commit/5135f3114773d6eb1e40f170e44caa2b75f2f78b))
+- **prop-validators:**
+  - split align validator into x/y ([c394d443](https://github.com/vuesion/vuesion/commit/c394d443cc2aa6ed3c27b72d6f89d6ac346b0b39))
+  - add generic responsive prop validator ([78878f49](https://github.com/vuesion/vuesion/commit/78878f498738ab2c658ad08fde96ba0daa140d88))
+- **generators:** update page blueprint ([74c05986](https://github.com/vuesion/vuesion/commit/74c05986a0d93db235c0e2a5428169afa125c867))
+- **vue-grid:** use composition api + re-design ([#501](https://github.com/vuesion/vuesion/pull/501)) ([81fc5250](https://github.com/vuesion/vuesion/commit/81fc5250043e491db01a1e978d7f9dc58c5351dc))
+- **vue-input:** use composition api + re-design ([#500](https://github.com/vuesion/vuesion/pull/500)) ([6c0560d0](https://github.com/vuesion/vuesion/commit/6c0560d0ce1f13d772cfb160c86d62fc50ec141f))
+- **vue-modal:**
+  - use composition api and testing-lib ([#492](https://github.com/vuesion/vuesion/pull/492)) ([952fe615](https://github.com/vuesion/vuesion/commit/952fe615774c43006eb71b8a329015affcb5e1f1))
+  - use composition api and testing-lib ([#492](https://github.com/vuesion/vuesion/pull/492)) ([60578039](https://github.com/vuesion/vuesion/commit/60578039a688e0fa058eda853b2d05291a22a9bd))
+- **prefetch:** call App.prefetch first, then AuthGuard ([#493](https://github.com/vuesion/vuesion/pull/493)) ([6020ece9](https://github.com/vuesion/vuesion/commit/6020ece91f2f110aae1823b1261b5c24503a7b60))
+- **storybook-addon-vue-info:** update to latest version ([#489](https://github.com/vuesion/vuesion/pull/489)) ([9c7eabe3](https://github.com/vuesion/vuesion/commit/9c7eabe31222c1e45cc1d2c80fbfc0fea360fb60))
+
+##### Code Style Changes
+
+- minor linting fix ([65f3760c](https://github.com/vuesion/vuesion/commit/65f3760c42b611227f1710a36ab3719b238051e4))
+- fixed import order in interceptor files ([0137533a](https://github.com/vuesion/vuesion/commit/0137533a5a9e04f633cca695106e7ee7e9d080a9))
+- cleaned up eslint file ([b2675b84](https://github.com/vuesion/vuesion/commit/b2675b848cc7259402758aec2bf424259016ad69))
+- ignore console log that is meant for production ([a48f71b5](https://github.com/vuesion/vuesion/commit/a48f71b5bfc4b83c4a3d864e1c93d30a1982cd3b))
+- added commented lines that are not working ([ebb363cd](https://github.com/vuesion/vuesion/commit/ebb363cd5da75c0d1d7357bfed7c26931a5a64db))
+- minor linting ([266dccba](https://github.com/vuesion/vuesion/commit/266dccba13f1cf5d56c34b524f133f273f919222))
+
+##### Tests
+
+- add example test for apollo and composition-api ([#552](https://github.com/vuesion/vuesion/pull/552)) ([611fb265](https://github.com/vuesion/vuesion/commit/611fb26548fd8f83a91ff36347e8d21f2f55decd))
+- add @testing-library/vue for better testing ([#491](https://github.com/vuesion/vuesion/pull/491)) ([4caef2d7](https://github.com/vuesion/vuesion/commit/4caef2d7830044c35b7b09720a13166c8220fcc0))
+- **e2e:** add test for apollo ([#551](https://github.com/vuesion/vuesion/pull/551)) ([6c565050](https://github.com/vuesion/vuesion/commit/6c5650503df16ae2eff740513aff7169cf8e3181))
+
+#### 3.7.3 (2020-09-26)
+
+##### Chores
+
+- remove version badge and use new twitter badge ([#512](https://github.com/vuesion/vuesion/pull/512)) ([6c0974aa](https://github.com/vuesion/vuesion/commit/6c0974aa15df7da052a28da62f22ace7f866f39b))
+- add german translations ([#511](https://github.com/vuesion/vuesion/pull/511)) ([7990dcf6](https://github.com/vuesion/vuesion/commit/7990dcf6a8ff567d443bece428735674c6bf1292))
+
+##### Bug Fixes
+
+- spa example config.json ([0c69149d](https://github.com/vuesion/vuesion/commit/0c69149d786520acbf1b8a2464d35679b3cc95e8))
+- memory leak related to logging within server-side rendering ([#520](https://github.com/vuesion/vuesion/pull/520)) ([88ba3688](https://github.com/vuesion/vuesion/commit/88ba368852988841798a6d25c5baa2ff58883efc))
+
+##### Tests
+
+- **calendar:** correct existing test ([#496](https://github.com/vuesion/vuesion/pull/496)) ([b6223771](https://github.com/vuesion/vuesion/commit/b622377156ec7b8d7424eb76ee0cd01f5521d829))
+
+#### 3.7.2 (2019-10-13)
+
+##### Chores
+
+- **style-guide:** rename examples folder to example ([2bb66082](https://github.com/vuesion/vuesion/commit/2bb66082beda01b5d3982200d52c9a340d656da5))
+
+##### Bug Fixes
+
+- **vue-calendar:** fix left padding for negative values ([#476](https://github.com/vuesion/vuesion/pull/476)) ([478b9cb4](https://github.com/vuesion/vuesion/commit/478b9cb4efde19c105a221eedbeef928c9397ff0))
+- **generators:** make delete mutation reactive ([#474](https://github.com/vuesion/vuesion/pull/474)) ([47f74a45](https://github.com/vuesion/vuesion/commit/47f74a45d5c11c1beea476c8af946c38bb1888a5))
+
+##### Tests
+
+- increase coverage for components in isolation ([#475](https://github.com/vuesion/vuesion/pull/475)) ([6d662cff](https://github.com/vuesion/vuesion/commit/6d662cfffa768c9d5f2d4e6222c7617ed2aafa04))
+
+#### 3.7.1 (2019-10-09)
+
+##### Chores
+
+- update dependencies ([#469](https://github.com/vuesion/vuesion/pull/469)) ([8552f936](https://github.com/vuesion/vuesion/commit/8552f936fa903ea7c69fb35fc692d73f918897bf))
+
+### 3.7.0 (2019-10-01)
+
+##### Chores
+
+- **generators:** make the templates generic with hints ([04fbabbc](https://github.com/vuesion/vuesion/commit/04fbabbc6c5f2aee2161d7399427be66e9b4b66d))
+
+##### New Features
+
+- **generators:** add blueprint for CRUD module ([#467](https://github.com/vuesion/vuesion/pull/467)) ([05ee8d92](https://github.com/vuesion/vuesion/commit/05ee8d92cf423a469d13d229e3978d55437a7b15))
+- **vue-slider:** handle focusout event ([4f2f8179](https://github.com/vuesion/vuesion/commit/4f2f8179b52a00b0cdbbec36439f03dfc68b0e42))
+- **vue-autocomplete:** only prevent default when list is open ([01c4592a](https://github.com/vuesion/vuesion/commit/01c4592a2960fb85b03a2af56523d2af01957ac1))
+
+### 3.6.0 (2019-09-21)
+
+##### Chores
+
+- add FUNDING.yml ([21b83c53](https://github.com/vuesion/vuesion/commit/21b83c53ce4833f02509df4b3e032dfcfb9b680a))
+
+##### New Features
+
+- **vue-slider:** improve SSR support ([#461](https://github.com/vuesion/vuesion/pull/461)) ([477a2079](https://github.com/vuesion/vuesion/commit/477a20794e6a9df1b2619507eb31f050575f4756))
+- **vue-autocomplete:** add v-model support ([#451](https://github.com/vuesion/vuesion/pull/451)) ([f2874a07](https://github.com/vuesion/vuesion/commit/f2874a07409e8d2e30e9d9a032f1c02ca7ae16ee))
+
+##### Bug Fixes
+
+- **components:** remove duplicate event handlers ([#462](https://github.com/vuesion/vuesion/pull/462)) ([0abd6e5f](https://github.com/vuesion/vuesion/commit/0abd6e5f3a0f3b3e3ed23f7f37f41ec342e0b71a))
+
+##### Tests
+
+- simplify tests for connected components ([#450](https://github.com/vuesion/vuesion/pull/450)) ([2f3a0203](https://github.com/vuesion/vuesion/commit/2f3a0203c38b64923c4ac26b50759665c1c9f2bf))
+
+### 3.5.0 (2019-08-26)
+
+##### New Features
+
+- **vue-autocomplete:** add autofocus and validation ([#448](https://github.com/vuesion/vuesion/pull/448)) ([89b4ad76](https://github.com/vuesion/vuesion/commit/89b4ad76db658fec01d88ea0b0ffc013a3b15fc5))
+
+### 3.4.0 (2019-08-25)
+
+##### Chores
+
+- update contributors ([e72d178f](https://github.com/vuesion/vuesion/commit/e72d178f2b83c395941b495a058a50f28e85f126))
+- update dependencies ([275eade0](https://github.com/vuesion/vuesion/commit/275eade00da90b5e3d2085a6a3ca15098fc3d362))
+- updarte README.md ([#434](https://github.com/vuesion/vuesion/pull/434)) ([1409c41d](https://github.com/vuesion/vuesion/commit/1409c41deba72f29c73268c999e9359a8f1b268f))
+- add helmet ([#433](https://github.com/vuesion/vuesion/pull/433)) ([4b41a332](https://github.com/vuesion/vuesion/commit/4b41a3329fabaf3542cf96d8099b7f8a6dd55c41))
+
+##### New Features
+
+- **vue-select:**
+  - add required indicator ([d41de496](https://github.com/vuesion/vuesion/commit/d41de49658c59e322991398d95136b2331399915))
+  - add label ([#444](https://github.com/vuesion/vuesion/pull/444)) ([7269c888](https://github.com/vuesion/vuesion/commit/7269c88867c68521fe64ff9555b52e1921de809d))
+- **components:** add textarea ([#440](https://github.com/vuesion/vuesion/pull/440)) ([d104951c](https://github.com/vuesion/vuesion/commit/d104951c8d6ea36fc21f4c09d8e4477cf385621d))
+
+##### Bug Fixes
+
+- **vue-data-table:** add custom css class property ([#446](https://github.com/vuesion/vuesion/pull/446)) ([7bebf23e](https://github.com/vuesion/vuesion/commit/7bebf23e04ff0fef4a9c63bde3e9aa7e1c2a6987))
+- **components:** align input elements ([#445](https://github.com/vuesion/vuesion/pull/445)) ([2ae57bc2](https://github.com/vuesion/vuesion/commit/2ae57bc21be138d280bf4d65db0a26c09d16cf5f))
+- **vue-slider:** remove focus indicator after move end ([#443](https://github.com/vuesion/vuesion/pull/443)) ([eba0d9b0](https://github.com/vuesion/vuesion/commit/eba0d9b07b4c31b10b9f8589e9c70669288fdf5a))
+
+#### 3.3.1 (2019-08-12)
+
+##### Chores
+
+- **deps:** update vuesion packages ([b79db603](https://github.com/vuesion/vuesion/commit/b79db603ece4490d202f615f90053c502d052f07))
+
+### 3.3.0 (2019-08-05)
+
+##### Chores
+
+- update dependencies ([fc4cae23](https://github.com/vuesion/vuesion/commit/fc4cae23875d38c46b647b42bbcf239cfa66e098))
+
+##### New Features
+
+- **components:** add star rating ([#425](https://github.com/vuesion/vuesion/pull/425)) ([681b23eb](https://github.com/vuesion/vuesion/commit/681b23ebf66df81f2713adf6b6018f8c3c04f201))
+- update vuesion/service version ([#427](https://github.com/vuesion/vuesion/pull/427)) ([ae0909a4](https://github.com/vuesion/vuesion/commit/ae0909a40b83df94888748d0548f30b23841e626))
+- update installation to use the new create cli ([c08e44a9](https://github.com/vuesion/vuesion/commit/c08e44a9535f35ba8ad05e6c708d782c0c7fa665))
+
+#### 3.2.3 (2019-06-09)
+
+##### Bug Fixes
+
+- **storybook:** merge webpack resolve attributes ([163c95d8](https://github.com/vuesion/vuesion/commit/163c95d8fe33dbe2fb337ef125e69028367d03f8))
+
+#### 3.2.2 (2019-05-30)
+
+##### Chores
+
+- update dependencies ([27d1b9a7](https://github.com/vuesion/vuesion/commit/27d1b9a78eecc3c82ce5ce4d23e094a9c37c0665))
+
+#### 3.2.1 (2019-05-30)
+
+##### Bug Fixes
+
+- **datepicker:** add methods to stories ([f057d3b0](https://github.com/vuesion/vuesion/commit/f057d3b0887ec81fa270bf2b4540808cc6094f49))
+
+### 3.2.0 (2019-05-19)
+
+##### Chores
+
+- update vuesion packages ([f0c0aced](https://github.com/vuesion/vuesion/commit/f0c0aced647ae778babb1d5b01bb1c4d2a477dde))
+
+##### Documentation Changes
+
+- move docs to vuesion/docs ([#412](https://github.com/vuesion/vuesion/pull/412)) ([152d7f44](https://github.com/vuesion/vuesion/commit/152d7f44115468e4f15c30ef01772ae0dbea3d15))
+
+##### New Features
+
+- **vue-markdown:** prop for using router or native links ([#411](https://github.com/vuesion/vuesion/pull/411)) ([76b792f2](https://github.com/vuesion/vuesion/commit/76b792f27ae9c430245c570bd815987a821e0822))
+- add devServer watchOptions to vuesion cfg ([#403](https://github.com/vuesion/vuesion/pull/403)) ([eaca388d](https://github.com/vuesion/vuesion/commit/eaca388de5ecec48d9ed64f28811199403043931))
+
+##### Bug Fixes
+
+- **vue-calender:** year view for min/max date ([#413](https://github.com/vuesion/vuesion/pull/413)) ([b277cade](https://github.com/vuesion/vuesion/commit/b277cade4df45d86214100a53f21bd8ee168df48))
+- **generators:** implement conditionals, fix kebabCase ([#410](https://github.com/vuesion/vuesion/pull/410)) ([1a57b508](https://github.com/vuesion/vuesion/commit/1a57b5085fb73c5494e5a6997872c22649ddf03d))
+
 ### 3.1.0 (2019-05-02)
 
 ##### Chores

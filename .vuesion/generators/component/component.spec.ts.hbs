@@ -1,18 +1,18 @@
-import { createLocalVue, mount } from '@vue/test-utils';
+import { render, RenderResult } from '@testing-library/vue';
 import {{ properCase componentName }} from './{{ properCase componentName }}.vue';
 
-const localVue = createLocalVue();
-
 describe('{{ properCase componentName }}.vue', () => {
+  let harness: RenderResult;
 
-test('renders component', () => {
-  const wrapper = mount<any>({{ properCase componentName }},
-    {
-      localVue,
-    },
-   );
+  beforeEach(() => {
+    harness = render({{ properCase componentName }}, {
+      stubs: ['nuxt-link'],
+    });
+  });
 
-  expect(wrapper.text()).toBe('{{ properCase componentName }}');
-});
+  test('renders component', () => {
+    const { getByText } = harness;
 
+    getByText('{{ properCase componentName }}');
+  });
 });
